@@ -1,0 +1,12 @@
+<div class="slide" style="padding: 40px; text-align: center; background-color: #ecf0f1; height: 100vh; box-sizing: border-box;">
+    <h2 style="color: #2c3e50; font-size: 2.5em; margin-bottom: 20px;">03. Konutlarda Gaz Salınımı</h2>
+    <div style="display: flex; justify-content: center; align-items: center; gap: 40px;">
+        <img src="sayfa6.jpeg" alt="Ev Enerji" style="width: 55%; border-radius: 15px; border: 5px solid white;">
+        <div style="width: 35%; text-align: left; background: white; padding: 25px; border-radius: 15px;">
+            <p style="font-size: 1.1em; color: #7f8c8d;">
+                Sadece fabrikalar değil, ısınma ve enerji ihtiyacı için evlerimizde kullandığımız sistemler de (metan ve CO2) 
+                sera etkisine katkıda bulunur. Isı yalıtımı bu noktada kritik önem taşır.
+            </p>
+        </div>
+    </div>
+</div>
