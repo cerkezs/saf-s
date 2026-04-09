@@ -7,28 +7,25 @@
 </head>
 <body style="margin: 0; padding: 0; overflow: hidden;">
 
-    <audio id="bgMusic" loop>
-        <source src="gerilim2.mp3" type="audio/mpeg">
-    </audio>
-
     <div style="display: flex; flex-direction: column; height: 100vh; background-color: #ffffff; font-family: 'Segoe UI', sans-serif;">
         
         <div style="flex: 1; display: flex; align-items: center; padding: 0 10%; gap: 50px;">
             
             <div style="flex: 1;">
                 <div style="width: 50px; height: 5px; background: #c0392b; margin-bottom: 20px;"></div>
-                <h2 style="color: #2c3e50; font-size: 3.5em; margin: 0; line-height: 1.1;">01. İklim Değişikliği Nedir?</h2>
+                <h2 style="color: #2c3e50; font-size: 3.5em; margin: 0; line-height: 1.1;"> İklim Değişikliği Nedir?</h2>
                 <p style="color: #34495e; font-size: 1.5em; line-height: 1.6; margin-top: 30px;">
                     İklim değişikliği, yeryüzündeki ortalama sıcaklıkların ve hava olaylarının uzun vadeli ve kalıcı olarak değişmesidir. 
+                    Özellikle sanayi devriminden sonra insan faaliyetleri bu süreci hızlandırmıştır.
                 </p>
-                
-                <button onclick="document.getElementById('bgMusic').play()" style="margin-top: 20px; padding: 15px 25px; border: none; background: #c0392b; color: white; border-radius: 50px; cursor: pointer; font-weight: bold; display: flex; align-items: center; gap: 10px; box-shadow: 0 4px 15px rgba(192, 57, 43, 0.4); font-size: 1.1em; transition: 0.3s;">
-                    🔊 Sesi Başlat
-                </button>
-                <p style="color: #bdc3c7; font-size: 0.8em; margin-top: 10px;">*Tarayıcı engeli nedeniyle müziği buradan başlatman gerekebilir.</p>
+                <ul style="color: #7f8c8d; font-size: 1.2em; margin-top: 20px; list-style-type: square;">
+                    <li>Sıcaklık artışı</li>
+                    <li>Hava dengesizlikleri</li>
+                    <li>Küresel bir kriz</li>
+                </ul>
             </div>
 
-            <div style="flex: 1; border-radius: 30px; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.2); aspect-ratio: 16/9; background: #000;">
+            <div style="flex: 1; border-radius: 30px; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.15); aspect-ratio: 16/9; background: #000;">
                 <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
                     <source src="baca.mp4" type="video/mp4">
                     Tarayıcınız video etiketini desteklemiyor.
@@ -52,15 +49,6 @@
 
         </div>
     </div>
-
-    <script>
-        window.addEventListener('click', () => {
-            const audio = document.getElementById('bgMusic');
-            if (audio.paused) {
-                audio.play();
-            }
-        }, { once: true }); // Sayfada herhangi bir yere ilk tıklandığında müziği başlatır.
-    </script>
 
 </body>
 </html>
