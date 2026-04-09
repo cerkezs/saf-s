@@ -1,0 +1,16 @@
+<div class="slide" style="padding: 40px; background-color: #e8f5e9; height: 100vh; box-sizing: border-box;">
+    <h2 style="color: #2e7d32; font-size: 2.5em; text-align: center;">08. Çözüm: Umut Bizim Elimizde</h2>
+    <div style="display: flex; align-items: center; margin-top: 30px; gap: 40px;">
+        <div style="flex: 1;">
+            <ul style="font-size: 1.3em; color: #1b5e20; line-height: 2;">
+                <li>☀️ <strong>Yenilenebilir Enerji:</strong> Güneş ve rüzgar.</li>
+                <li>🌳 <strong>Ağaçlandırma:</strong> Ormanları korumak.</li>
+                <li>♻️ <strong>Sıfır Atık:</strong> Geri dönüşüm bilinci.</li>
+                <li>🚲 <strong>Temiz Ulaşım:</strong> Bisiklet ve toplu taşıma.</li>
+            </ul>
+        </div>
+        <div style="flex: 1.5;">
+            <img src="sayfa12.jpeg" alt="Çözüm" style="width: 100%; border-radius: 15px; border: 8px solid white;">
+        </div>
+    </div>
+</div>
