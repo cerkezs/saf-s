@@ -1,0 +1,11 @@
+<div class="slide" style="display: flex; align-items: center; padding: 40px; background-color: #fff8e1; height: 100vh; box-sizing: border-box; flex-direction: row-reverse;">
+    <div style="flex: 1; padding-left: 30px;">
+        <h2 style="color: #ff8f00; font-size: 2.5em; border-right: 10px solid #ff8f00; padding-right: 15px; text-align: right;">07. Kuraklık Tehdidi</h2>
+        <p style="font-size: 1.2em; line-height: 1.6; color: #5d4037; text-align: right;">
+            Bazı bölgeler aşırı yağış alırken, bazı bölgeler şiddetli kuraklıkla savaşıyor. Toprak verimini kaybediyor, su kaynakları tükeniyor ve tarımsal üretim tehlikeye giriyor.
+        </p>
+    </div>
+    <div style="flex: 1;">
+        <img src="sayfa10.jpeg" alt="Kuraklık" style="width: 100%; border-radius: 20px; filter: sepia(0.3);">
+    </div>
+</div>
