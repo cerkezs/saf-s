@@ -1,38 +1,34 @@
-<div style="display: flex; flex-direction: column; height: 100vh; background-color: #ffffff; font-family: 'Segoe UI', sans-serif; margin: 0; overflow: hidden;">
-    
-    <div style="display: flex; align-items: center; height: calc(100vh - 120px); padding: 0 10%; gap: 50px;">
-        
-        <div style="flex: 1;">
-            <div style="width: 50px; height: 5px; background: #e74c3c; margin-bottom: 20px;"></div>
-            <h2 style="color: #2c3e50; font-size: 3.5em; margin: 0; line-height: 1.1;">Dinlediğiniz İçin Teşekkürler!</h2>
-            <p style="color: #34495e; font-size: 1.6em; line-height: 1.5; margin-top: 30px; font-style: italic;">
-                "Dünya bize atalarımızdan miras kalmadı, biz onu çocuklarımızdan ödünç aldık."
-            </p>
-            <div style="margin-top: 40px; padding: 30px; background: #f8f9fa; border-radius: 20px; border: 1px solid #eee;">
-                <p style="color: #2c3e50; font-size: 1.2em; margin: 0;"><strong>Safiye ŞEKER</strong></p>
-                <p style="color: #7f8c8d; font-size: 1.1em; margin: 5px 0 0 0;">9/C Sınıfı - No: 236</p>
-                <p style="color: #95a5a6; font-size: 1em; margin-top: 15px;">Nisan 2026</p>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teşekkürler</title>
+    <style>
+        @media (max-width: 768px) {
+            .ana-icerik { flex-direction: column !important; padding: 40px 20px !important; height: auto !important; }
+            .metin-alani, .resim-alani { width: 100% !important; }
+            h2 { font-size: 2.2em !important; }
+            .alt-nav { height: 80px !important; gap: 30px !important; }
+        }
+    </style>
+</head>
+<body style="margin: 0; font-family: 'Segoe UI', sans-serif;">
+    <div style="display: flex; flex-direction: column; min-height: 100vh;">
+        <div class="ana-icerik" style="flex: 1; display: flex; align-items: center; padding: 0 10%; gap: 50px;">
+            <div class="metin-alani" style="flex: 1;">
+                <div style="width: 50px; height: 5px; background: #e74c3c; margin-bottom: 20px;"></div>
+                <h2 style="color: #2c3e50; font-size: 3.5em; margin: 0;">Teşekkür Ederim!</h2>
+                <p style="color: #34495e; font-size: 1.5em; margin-top: 20px;">Dinlediğiniz için teşekkürler.</p>
+                <p style="color: #7f8c8d;">Safiye ŞEKER | 9/C - 236</p>
+            </div>
+            <div class="resim-alani" style="flex: 1;">
+                <img src="sayfa13.jpeg" style="width: 100%; border-radius: 30px; box-shadow: 0 20px 40px rgba(0,0,0,0.15);">
             </div>
         </div>
-
-        <div style="flex: 1;">
-            <img src="sayfa13.jpeg" style="width: 100%; border-radius: 30px; box-shadow: 0 25px 50px rgba(0,0,0,0.2);" alt="Gelecek Bizimle">
+        <div class="alt-nav" style="height: 100px; display: flex; align-items: center; justify-content: center; background: #2c3e50;">
+            <a href="index.html" style="text-decoration: none; color: white; background: #3498db; padding: 10px 25px; border-radius: 30px; font-weight: bold;">🔄 BAŞA DÖN</a>
         </div>
     </div>
-
-    <div style="height: 120px; display: flex; align-items: center; justify-content: center; gap: 100px; background: #2c3e50; border-top: 1px solid #1a252f;">
-        
-        <a href="Sayfa 9.html" style="text-decoration: none; display: flex; align-items: center; color: #bdc3c7; font-size: 1.2em; font-weight: bold; transition: 0.3s;">
-            <span style="font-size: 40px; margin-right: 15px;">&#10094;</span> GERİ
-        </a>
-
-        <div style="color: #ffffff; font-weight: bold; font-size: 1.1em; opacity: 0.7;">
-            SAYFA 10 / 10
-        </div>
-
-        <a href="index.html" style="text-decoration: none; background: #3498db; color: white; padding: 12px 25px; border-radius: 50px; font-weight: bold; transition: 0.3s; box-shadow: 0 4px 15px rgba(52, 152, 219, 0.4);">
-             🔄 BAŞA DÖN
-        </a>
-
-    </div>
-</div>
+</body>
+</html>
