@@ -1,0 +1,11 @@
+<div class="slide" style="display: flex; flex-direction: column; padding: 40px; background-color: #ffffff; height: 100vh; box-sizing: border-box;">
+    <h2 style="color: #455a64; font-size: 2.5em; text-align: center; margin-bottom: 20px;">06. Ekstrem Hava Olayları</h2>
+    <div style="display: flex; align-items: center; gap: 30px;">
+        <img src="sayfa9.jpeg" alt="Sel Felaketi" style="width: 60%; border-radius: 15px; box-shadow: 0 15px 30px rgba(0,0,0,0.3);">
+        <div style="width: 40%;">
+            <p style="font-size: 1.2em; color: #37474f;">
+                Isınan atmosfer daha fazla su buharı tutar, bu da ani ve şiddetli yağışlara, yıkıcı sellere ve dev fırtınalara neden olur. İklim artık daha öngörülemez hale geliyor.
+            </p>
+        </div>
+    </div>
+</div>
